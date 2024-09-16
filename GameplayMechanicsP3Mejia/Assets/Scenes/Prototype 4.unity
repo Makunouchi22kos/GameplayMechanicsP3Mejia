@@ -360,6 +360,11 @@ MonoBehaviour:
   - {fileID: 2446729473805899583, guid: b5418abd9475db247bf6ff8fa52727bd, type: 3}
   - {fileID: 1921033608822090159, guid: 02dce73a96e145546877f96e57e85472, type: 3}
   - {fileID: 6665712864380361643, guid: 0e81147cd5e642f4ba09df04cdf22e66, type: 3}
+  bossPrefab: {fileID: 6545349012071718840, guid: 37cbb303e062fde41b71021dc1988010, type: 3}
+  miniEnemyPrefabs:
+  - {fileID: 9221790293521725086, guid: 9b11f94bf4bb192428aed8657dea8585, type: 3}
+  - {fileID: 5366274650989046218, guid: 5cd6433fa75e9384e87b672e61cb97a8, type: 3}
+  bossRound: 2
 --- !u!4 &959478875
 Transform:
   m_ObjectHideFlags: 0
@@ -464,7 +469,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7f297be19a540144fae017ac252a89e7, type: 2}
+  - {fileID: 2100000, guid: e6e6f7a3c9f4839409af1eae15839382, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -521,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa94c764c54c5ed4ea146f4d2a842efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   hasPowerup: 0
   powerupIndicater: {fileID: 262399436}
   currentPowerUp: 0
